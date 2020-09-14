@@ -1,0 +1,16 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\bin\Debug\Contacts.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\bin\Debug\Contacts.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\obj\Debug\Contacts.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\obj\Debug\Contacts.Form1.resources
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\obj\Debug\Contacts.Properties.Resources.resources
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\obj\Debug\Contacts.csproj.GenerateResource.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\obj\Debug\Contacts.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\obj\Debug\Contacts.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\obj\Debug\Contacts.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\bin\Debug\Database1.mdf
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\bin\Debug\Database1_log.ldf
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\bin\Debug\Contacts.exe.manifest
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\bin\Debug\Contacts.application
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\obj\Debug\Contacts.exe.manifest
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Contacts\Contacts\obj\Debug\Contacts.application
