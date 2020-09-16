@@ -1,0 +1,7 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Identify Yourself\bin\Debug\Identify Yourself.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Identify Yourself\bin\Debug\Identify Yourself.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Identify Yourself\bin\Debug\Identify Yourself.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Identify Yourself\obj\Debug\Identify Yourself.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Identify Yourself\obj\Debug\Identify Yourself.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Identify Yourself\obj\Debug\Identify Yourself.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Identify Yourself\obj\Debug\Identify Yourself.pdb
