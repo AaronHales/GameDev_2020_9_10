@@ -1,0 +1,10 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\windowsGUI\bin\Debug\windowsGUI.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\windowsGUI\bin\Debug\windowsGUI.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\windowsGUI\bin\Debug\windowsGUI.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\windowsGUI\obj\Debug\windowsGUI.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\windowsGUI\obj\Debug\windowsGUI.Start_Page.resources
+C:\Users\aaron.hales\Desktop\Aaron's Projects\windowsGUI\obj\Debug\windowsGUI.Properties.Resources.resources
+C:\Users\aaron.hales\Desktop\Aaron's Projects\windowsGUI\obj\Debug\windowsGUI.csproj.GenerateResource.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\windowsGUI\obj\Debug\windowsGUI.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\windowsGUI\obj\Debug\windowsGUI.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\windowsGUI\obj\Debug\windowsGUI.pdb
