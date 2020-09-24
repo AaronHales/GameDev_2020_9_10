@@ -1,0 +1,10 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\eventform\bin\Debug\eventform.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\eventform\bin\Debug\eventform.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\eventform\bin\Debug\eventform.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\eventform\obj\Debug\eventform.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\eventform\obj\Debug\eventform.Main.resources
+C:\Users\aaron.hales\Desktop\Aaron's Projects\eventform\obj\Debug\eventform.Properties.Resources.resources
+C:\Users\aaron.hales\Desktop\Aaron's Projects\eventform\obj\Debug\eventform.csproj.GenerateResource.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\eventform\obj\Debug\eventform.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\eventform\obj\Debug\eventform.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\eventform\obj\Debug\eventform.pdb

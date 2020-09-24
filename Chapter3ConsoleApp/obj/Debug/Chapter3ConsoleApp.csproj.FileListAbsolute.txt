@@ -1,0 +1,7 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter3ConsoleApp\bin\Debug\Chapter3ConsoleApp.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter3ConsoleApp\bin\Debug\Chapter3ConsoleApp.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter3ConsoleApp\bin\Debug\Chapter3ConsoleApp.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter3ConsoleApp\obj\Debug\Chapter3ConsoleApp.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter3ConsoleApp\obj\Debug\Chapter3ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter3ConsoleApp\obj\Debug\Chapter3ConsoleApp.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter3ConsoleApp\obj\Debug\Chapter3ConsoleApp.pdb
