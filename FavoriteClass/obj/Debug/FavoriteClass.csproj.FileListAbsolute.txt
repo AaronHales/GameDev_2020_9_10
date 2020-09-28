@@ -1,0 +1,7 @@
+C:\Users\aaron\Desktop\GameDev_2020_9_10\FavoriteClass\bin\Debug\FavoriteClass.exe.config
+C:\Users\aaron\Desktop\GameDev_2020_9_10\FavoriteClass\bin\Debug\FavoriteClass.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\FavoriteClass\bin\Debug\FavoriteClass.pdb
+C:\Users\aaron\Desktop\GameDev_2020_9_10\FavoriteClass\obj\Debug\FavoriteClass.csprojAssemblyReference.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\FavoriteClass\obj\Debug\FavoriteClass.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\FavoriteClass\obj\Debug\FavoriteClass.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\FavoriteClass\obj\Debug\FavoriteClass.pdb

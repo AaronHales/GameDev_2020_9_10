@@ -1,0 +1,7 @@
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Echo Echo\bin\Debug\Echo Echo.exe.config
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Echo Echo\bin\Debug\Echo Echo.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Echo Echo\bin\Debug\Echo Echo.pdb
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Echo Echo\obj\Debug\Echo Echo.csprojAssemblyReference.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Echo Echo\obj\Debug\Echo Echo.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Echo Echo\obj\Debug\Echo Echo.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Echo Echo\obj\Debug\Echo Echo.pdb
