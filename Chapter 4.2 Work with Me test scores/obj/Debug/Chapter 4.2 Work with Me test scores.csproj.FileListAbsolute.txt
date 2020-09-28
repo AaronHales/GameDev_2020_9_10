@@ -1,0 +1,7 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 4.2 Work with Me test scores\bin\Debug\Chapter 4.2 Work with Me test scores.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 4.2 Work with Me test scores\bin\Debug\Chapter 4.2 Work with Me test scores.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 4.2 Work with Me test scores\bin\Debug\Chapter 4.2 Work with Me test scores.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 4.2 Work with Me test scores\obj\Debug\Chapter 4.2 Work with Me test scores.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 4.2 Work with Me test scores\obj\Debug\Chapter 4.2 Work with Me test scores.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 4.2 Work with Me test scores\obj\Debug\Chapter 4.2 Work with Me test scores.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 4.2 Work with Me test scores\obj\Debug\Chapter 4.2 Work with Me test scores.pdb

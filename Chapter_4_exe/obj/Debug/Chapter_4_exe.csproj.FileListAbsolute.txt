@@ -1,0 +1,7 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter_4_exe\bin\Debug\Chapter_4_exe.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter_4_exe\bin\Debug\Chapter_4_exe.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter_4_exe\bin\Debug\Chapter_4_exe.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter_4_exe\obj\Debug\Chapter_4_exe.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter_4_exe\obj\Debug\Chapter_4_exe.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter_4_exe\obj\Debug\Chapter_4_exe.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter_4_exe\obj\Debug\Chapter_4_exe.pdb
