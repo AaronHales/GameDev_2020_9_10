@@ -1,0 +1,7 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Refrence Data\bin\Debug\Refrence Data.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Refrence Data\bin\Debug\Refrence Data.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Refrence Data\bin\Debug\Refrence Data.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Refrence Data\obj\Debug\Refrence Data.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Refrence Data\obj\Debug\Refrence Data.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Refrence Data\obj\Debug\Refrence Data.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Refrence Data\obj\Debug\Refrence Data.pdb

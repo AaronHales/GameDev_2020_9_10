@@ -1,0 +1,7 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\String Experiments\bin\Debug\String Experiments.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\String Experiments\bin\Debug\String Experiments.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\String Experiments\bin\Debug\String Experiments.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\String Experiments\obj\Debug\String Experiments.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\String Experiments\obj\Debug\String Experiments.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\String Experiments\obj\Debug\String Experiments.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\String Experiments\obj\Debug\String Experiments.pdb
