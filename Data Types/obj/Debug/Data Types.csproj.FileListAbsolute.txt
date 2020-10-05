@@ -1,0 +1,10 @@
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Data Types\bin\Debug\Data Types.exe.config
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Data Types\bin\Debug\Data Types.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Data Types\bin\Debug\Data Types.pdb
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Data Types\obj\Debug\Data Types.csprojAssemblyReference.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Data Types\obj\Debug\Data_Types.data_types.resources
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Data Types\obj\Debug\Data_Types.Properties.Resources.resources
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Data Types\obj\Debug\Data Types.csproj.GenerateResource.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Data Types\obj\Debug\Data Types.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Data Types\obj\Debug\Data Types.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Data Types\obj\Debug\Data Types.pdb
