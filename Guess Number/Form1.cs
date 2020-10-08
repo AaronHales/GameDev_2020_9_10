@@ -13,47 +13,56 @@ namespace Guess_Number
 {
     public partial class Form1 : Form
     {
+        public int tries;
+        public int num;
         public Form1()
         {
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            num = random.Next(1, 11);
+            tries = 3;
+            win_lost_lbl.Visible = false;
+        }
+
         private void guess_bttn_Click(object sender, EventArgs e)
         {
-            win_lose.Visible = false;
-            Random random = new Random();
-            int num = random.Next(1,11);
             int player_num = Decimal.ToInt32(enter_num.Value);
-            bool win;
 
-            int tries = 0;
-            if (player_num == num)
+            if (tries > 1)
             {
-                high_low_lbl.Visible = true;
-                high_low_lbl.Text = "You Guessed the number";
-                win = true;
-            }
-            else if (player_num < num)
-            {
-                high_low_lbl.Visible = true;
-                high_low_lbl.Text = "Guessed number too low";
-                win = false;
+                if (player_num == num)
+                {
+                    MessageBox.Show("You guessed the number");
+                    win_lost_lbl.Text = "YOU WIN";
+                }
+                else if (player_num < num)
+                {
+                    tries--;
+                    MessageBox.Show("You guess to low\nTries left: " + tries);
+                }
+                else
+                {
+                    tries--;
+                    MessageBox.Show("You guessed to high\nTries left: " + tries);
+                }
+
             }
             else
             {
-                high_low_lbl.Visible = true;
-                high_low_lbl.Text = "Guessed number too high";
-            }
-
-            if ((tries == 2) && (win = false))
-            {
                 guess_bttn.Visible = false;
                 enter_num.Visible = false;
-                win_lose.Text = "You lose";
-                high_low_lbl.Text = "the number was: " + num.ToString();
+                win_lost_lbl.Visible = true;
+                win_lost_lbl.ForeColor = Color.Red;
+                win_lost_lbl.Text = "YOU LOST";
+                MessageBox.Show("You lost\nThe number was " + num);
             }
-            tries++;
 
         }
+
+
     }
 }
