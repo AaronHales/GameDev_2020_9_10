@@ -42,9 +42,66 @@ namespace Tic_Tac_Toe
             bttn_0_0.Text = bttn_0_1.Text = bttn_0_2.Text = bttn_1_0.Text = bttn_1_1.Text = bttn_1_2.Text = bttn_2_0.Text = bttn_2_1.Text = bttn_2_2.Text = "";
         }
 
+        bool check_draw()
+        {
+            if ((turns >= 9) && (check_winner() == false))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        bool check_winner()
+        {
+            // horizontal checks
+            if ((bttn_0_0.Text == bttn_0_1.Text) && (bttn_0_1.Text == bttn_0_2.Text) && (bttn_0_0.Text != ""))
+            {
+                return true;
+            }
+            else if ((bttn_1_0.Text == bttn_1_1.Text) && (bttn_1_1.Text == bttn_1_2.Text) && (bttn_1_0.Text != ""))
+            {
+                return true;
+            }
+            else if ((bttn_2_0.Text == bttn_2_1.Text) && (bttn_2_1.Text == bttn_2_2.Text) && (bttn_2_0.Text != ""))
+            {
+                return true;
+            }
+
+            // vertical checks
+            else if ((bttn_0_0.Text == bttn_1_0.Text) && (bttn_1_0.Text == bttn_2_0.Text) && (bttn_0_0.Text != ""))
+            {
+                return true;
+            }
+            else if ((bttn_0_1.Text == bttn_1_1.Text) && (bttn_1_1.Text == bttn_2_1.Text) && (bttn_0_1.Text != ""))
+            {
+                return true;
+            }
+            else if ((bttn_0_2.Text == bttn_1_2.Text) && (bttn_1_2.Text == bttn_2_2.Text) && (bttn_0_2.Text != ""))
+            {
+                return true;
+            }
+
+            // diagonal checks
+            else if ((bttn_0_0.Text == bttn_1_1.Text) && (bttn_1_1.Text == bttn_2_2.Text) && (bttn_0_0.Text != ""))
+            {
+                return true;
+            }
+            else if ((bttn_0_2.Text == bttn_1_1.Text) && (bttn_1_1.Text == bttn_2_0.Text) && (bttn_0_2.Text != ""))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
-
             NewGame();
         }
         private void button_click(object sender, EventArgs e)
@@ -72,6 +129,32 @@ namespace Tic_Tac_Toe
             else
             {
                 Console.WriteLine("NO CHEATING\nI THOUGHT YOU WERE BETTER THAN THIS");
+            }
+            
+            if (check_winner() == true)
+            {
+                if (button.Text == "X")
+                {
+                    score1++;
+                    MessageBox.Show("X wins!");
+                    NewGame();
+                    player = 1;
+                }
+                else
+                {
+                    score2++;
+                    MessageBox.Show("O wins!");
+                    NewGame();
+                    player = 2;
+                }
+
+            }
+
+            if (check_draw() == true)
+            {
+                MessageBox.Show("Tie Game!");
+                score3++;
+                NewGame();
             }
         }
 
