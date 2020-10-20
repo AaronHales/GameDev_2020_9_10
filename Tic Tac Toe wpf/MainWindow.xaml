@@ -21,24 +21,24 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         
-        <Button x:Name="bttn_00" Grid.Column="0" Grid.Row="0" Content="X" />
-        <Button x:Name="bttn_01" Grid.Column="1" Grid.Row="0" Content="O" />
-        <Button x:Name="bttn_02" Grid.Column="2" Grid.Row="0" />
-        
-        <Button x:Name="bttn_10" Grid.Column="0" Grid.Row="1" />
-        <Button x:Name="bttn_11" Grid.Column="1" Grid.Row="1" />
-        <Button x:Name="bttn_12" Grid.Column="2" Grid.Row="1" />
-        
-        <Button x:Name="bttn_20" Grid.Column="0" Grid.Row="2" />
-        <Button x:Name="bttn_21" Grid.Column="1" Grid.Row="2" />
-        <Button x:Name="bttn_22" Grid.Column="2" Grid.Row="2" />
+        <Button x:Name="bttn_00" Grid.Column="0" Grid.Row="0" Content="X" FontSize="75" />
+        <Button x:Name="bttn_01" Grid.Column="1" Grid.Row="0" Content="O" FontSize="75" />
+        <Button x:Name="bttn_02" Grid.Column="2" Grid.Row="0" FontSize="75" />
 
-        <Label x:Name="x_wins" Grid.Column="3" Grid.Row="0" Content="X Wins:" />
-        <Label x:Name="o_wins" Grid.Column="3" Grid.Row="1" Content="O Wins:" />
-        <Label x:Name="draws" Grid.Column="3" Grid.Row="2" Content="Draws:" />
+        <Button x:Name="bttn_10" Grid.Column="0" Grid.Row="1" FontSize="75" />
+        <Button x:Name="bttn_11" Grid.Column="1" Grid.Row="1" FontSize="75" />
+        <Button x:Name="bttn_12" Grid.Column="2" Grid.Row="1" FontSize="75" />
+        
+        <Button x:Name="bttn_20" Grid.Column="0" Grid.Row="2" FontSize="75" />
+        <Button x:Name="bttn_21" Grid.Column="1" Grid.Row="2" FontSize="75" />
+        <Button x:Name="bttn_22" Grid.Column="2" Grid.Row="2" FontSize="75" />
 
-        <Button x:Name="new_game" Grid.Column="0" Grid.Row="3" Content="New Game" />
-        <Button x:Name="reset" Grid.Column="1" Grid.Row="3" Content="Reset" />
-        <Button x:Name="exit" Grid.Column="2" Grid.Row="3" Content="Exit" />
+        <Label x:Name="x_wins" Grid.Column="3" Grid.Row="0" Content="X Wins:" VerticalContentAlignment="Center" FontSize="18" />
+        <Label x:Name="o_wins" Grid.Column="3" Grid.Row="1" Content="O Wins:" VerticalContentAlignment="Center" FontSize="18" />
+        <Label x:Name="draws" Grid.Column="3" Grid.Row="2" Content="Draws:" VerticalContentAlignment="Center" FontSize="18" />
+
+        <Button x:Name="new_game" Grid.Column="0" Grid.Row="3" Content="New Game" FontSize="20" FontWeight="SemiBold" />
+        <Button x:Name="reset" Grid.Column="1" Grid.Row="3" Content="Reset" FontSize="20" FontWeight="SemiBold" />
+        <Button x:Name="exit" Grid.Column="2" Grid.Row="3" Content="Exit" FontSize="20" FontWeight="SemiBold" />
     </Grid>
 </Window>
