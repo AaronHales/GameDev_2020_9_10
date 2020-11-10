@@ -8,3 +8,13 @@ C:\Users\aaron.hales\Desktop\Aaron's Projects\Player One\obj\Debug\Player One.cs
 C:\Users\aaron.hales\Desktop\Aaron's Projects\Player One\obj\Debug\Player One.exe
 C:\Users\aaron.hales\Desktop\Aaron's Projects\Player One\obj\Debug\Player One.pdb
 C:\Users\aaron.hales\Desktop\Aaron's Projects\Player One\obj\Debug\Player One.csprojAssemblyReference.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Player One\bin\Debug\Player One.exe.config
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Player One\bin\Debug\Player One.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Player One\bin\Debug\Player One.pdb
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Player One\obj\Debug\Player One.csprojAssemblyReference.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Player One\obj\Debug\Player_One.Form1.resources
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Player One\obj\Debug\Player_One.Properties.Resources.resources
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Player One\obj\Debug\Player One.csproj.GenerateResource.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Player One\obj\Debug\Player One.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Player One\obj\Debug\Player One.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Player One\obj\Debug\Player One.pdb
