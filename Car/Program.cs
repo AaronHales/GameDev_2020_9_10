@@ -35,7 +35,11 @@ namespace Car
             Console.WriteLine("What color: ");
             color = Console.ReadLine();
 
-            //Console.WriteLine("What brand: ");
+            Console.WriteLine("What brand: ");
+            brand = Console.ReadLine();
+
+            Console.WriteLine("What make: ");
+            make = Console.ReadLine();
         }
 
         public void drive()
