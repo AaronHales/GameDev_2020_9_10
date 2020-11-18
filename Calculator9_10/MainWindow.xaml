@@ -35,6 +35,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
@@ -46,9 +47,9 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         
-        <TextBox x:Name="screen" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Text="0"/>
+        <TextBox x:Name="screen" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" Text="0"/>
 
-        <Button x:Name="num_0" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Content="0" Click="num_Click"/>
+        <Button x:Name="num_0" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="2" Content="0" Click="num_Click"/>
         <Button x:Name="num_1" Grid.Column="0" Grid.Row="4" Content="1" Click="num_Click"/>
         <Button x:Name="num_2" Grid.Column="1" Grid.Row="4" Content="2" Click="num_Click"/>
         <Button x:Name="num_3" Grid.Column="2" Grid.Row="4" Content="3" Click="num_Click"/>
@@ -59,19 +60,22 @@
         <Button x:Name="num_8" Grid.Column="1" Grid.Row="3" Content="8" Click="num_Click"/>
         <Button x:Name="num_9" Grid.Column="2" Grid.Row="3" Content="9" Click="num_Click"/>
 
-        <Button x:Name="dec" Grid.Column="2" Grid.Row="5" Content="."/>
-        <Button x:Name="per" Grid.Column="2" Grid.Row="1" Content="%"/>
-        <Button x:Name="pos_or_neg" Grid.Column="1" Grid.Row="1" Content="+/-"/>
+        <Button x:Name="dec" Grid.Column="0" Grid.Row="5" Content="." Click="num_Click"/>
+        <Button x:Name="pos_or_neg" Grid.Column="2" Grid.Row="1" Content="±" Click="pos_or_neg_Click"/>
 
-        <Button x:Name="divide" Grid.Column="3" Grid.Row="1" Content="/" Click="op_Click"/>
-        <Button x:Name="mult" Grid.Column="3" Grid.Row="2" Content="X" Click="op_Click"/>
+        <Button x:Name="divide" Grid.Column="3" Grid.Row="1" Content="÷" Click="op_Click"/>
+        <Button x:Name="mult" Grid.Column="3" Grid.Row="2" Content="×" Click="op_Click"/>
         <Button x:Name="subtract" Grid.Column="3" Grid.Row="3" Content="-" Click="op_Click"/>
         <Button x:Name="add" Grid.Column="3" Grid.Row="4" Content="+" Click="op_Click"/>
         
-        <Button x:Name="equal" Grid.Column="4" Grid.Row="5" Content="=" Click="equal_Click"/>
-        
-        
-        <Button x:Name="clear" Grid.Column="0" Grid.Row="1" Content="C" Click="clear_Click"/>
-        
+        <Button x:Name="equal" Grid.Column="3" Grid.Row="5" Content="=" Click="equal_Click"/>
+
+        <Button x:Name="clear" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Content="C" Click="clear_Click"/>
+
+        <Button x:Name="sqrt_root" Grid.Column="5" Grid.Row="1" Content="√x" Click="sqrt_root_Click"/>
+        <Button x:Name="squared" Grid.Column="5" Grid.Row="2" Content="x²" Click="squared_Click"/>
+        <Button x:Name="power" Grid.Column="5" Grid.Row="3" Content="xⁿ" Click="op_Click"/>
+        <Button x:Name="num_e" Grid.Column="5" Grid.Row="4" Content="e" Click="num_Click"/>
+        <Button x:Name="pi" Grid.Column="5" Grid.Row="5" Content="π" Click="num_Click"/>
     </Grid>
 </Window>

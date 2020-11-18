@@ -21,10 +21,11 @@ namespace Calculator9_10
     /// </summary>
     public partial class MainWindow : Window
     {
-        int opperand1;
-        int opperand2;
-        String opperator;
+        double opperand1 = 0;
+        double opperand2 = 0;
+        String opperator = "";
         double answer;
+        String text;
 
         public MainWindow()
         {
@@ -43,18 +44,24 @@ namespace Calculator9_10
         private void num_Click(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
-            if (screen.Text.Equals("0")) // if screen text equals 0 it will clear and continue to add, will also allow 0's, but no starting
+            if (screen.Text == "0") // if screen text equals 0 it will clear and continue to add, will also allow 0's, but no starting
             {
-                screen.Text = "";
+                text = "";
 
             }
-            String text = screen.Text;
-
-            text += button.Content.ToString();
-
+            if (button.Content.Equals("e"))
+            {
+                text = Math.E.ToString();
+            }
+            else if (button.Content.Equals("π"))
+            {
+                text = Math.PI.ToString();
+            }
+            else
+            {
+                text += button.Content.ToString();
+            }
             screen.Text = text;
-
-
         }
 
         private void clear_Click(object sender, RoutedEventArgs e)
@@ -68,7 +75,7 @@ namespace Calculator9_10
         private void op_Click(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
-            opperand1 = int.Parse(screen.Text);
+            opperand1 = double.Parse(screen.Text);
             opperator = button.Content.ToString();
             screen.Text = "0";
         }
@@ -76,7 +83,7 @@ namespace Calculator9_10
         private void equal_Click(object sender, RoutedEventArgs e)
         {
             //double answer;
-            opperand2 = int.Parse(screen.Text);
+            opperand2 = double.Parse(screen.Text);
             if (opperator.Equals("+"))
             {
                 answer = opperand1 + opperand2;
@@ -85,7 +92,7 @@ namespace Calculator9_10
             {
                 answer = opperand1 - opperand2;
             }
-            else if (opperator.Equals("*"))
+            else if (opperator.Equals("×"))
             {
                 answer = opperand1 * opperand2;
             }
@@ -104,12 +111,44 @@ namespace Calculator9_10
                     answer = opperand1 / opperand2;
                 }
             }
+            else if (opperator.Equals("xⁿ"))
+            {
+                answer = Math.Pow(opperand1, opperand2);
+            }
             else
             {
                 MessageBox.Show("Why press enter when no data was entered.\nMath requires numbers");
                 clear_Click(sender, e);
             }
             screen.Text = answer.ToString();
+        }
+
+        private void sqrt_root_Click(object sender, RoutedEventArgs e)
+        {
+            opperand1 = double.Parse(screen.Text);
+            answer = Math.Sqrt(opperand1);
+            screen.Text = answer.ToString();
+        }
+
+        private void squared_Click(object sender, RoutedEventArgs e)
+        {
+            opperand1 = double.Parse(screen.Text);
+            answer = Math.Pow(opperand1, 2);
+            screen.Text = answer.ToString();
+        }
+
+        private void pos_or_neg_Click(object sender, RoutedEventArgs e)
+        {
+            if (!screen.Text.Contains("-"))
+            {
+                text = "-" + text;
+                screen.Text = text;
+            }
+            else
+            {
+                text = text.TrimStart('-');
+                screen.Text = text;
+            }
         }
     }
 }
