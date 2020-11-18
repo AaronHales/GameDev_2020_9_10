@@ -31,7 +31,7 @@ namespace Calculator9_10
         {
             InitializeComponent();
         }
-        
+        /*
         public void radius_of_circle(object sender, RoutedEventArgs e)
         {
             double x = 0.0;
@@ -40,28 +40,27 @@ namespace Calculator9_10
             x = pi * Math.Pow(r, 2);
             screen.Text = x.ToString();
         }
+        */
 
         private void num_Click(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
-            if (screen.Text == "0") // if screen text equals 0 it will clear and continue to add, will also allow 0's, but no starting
+            if (screen.Text.StartsWith("0"))
             {
-                text = "";
-
+                screen.Text = "";                
             }
             if (button.Content.Equals("e"))
             {
-                text = Math.E.ToString();
+                screen.Text = Math.E.ToString();
             }
             else if (button.Content.Equals("π"))
             {
-                text = Math.PI.ToString();
+                screen.Text = Math.PI.ToString();
             }
             else
             {
-                text += button.Content.ToString();
+                screen.Text += button.Content.ToString();
             }
-            screen.Text = text;
         }
 
         private void clear_Click(object sender, RoutedEventArgs e)
@@ -69,7 +68,8 @@ namespace Calculator9_10
             screen.Text = "0";
             opperand1 = 0;
             opperand2 = 0;
-            opperator = "";
+            opperator = null;
+            text = "";
         }
 
         private void op_Click(object sender, RoutedEventArgs e)
@@ -83,44 +83,90 @@ namespace Calculator9_10
         private void equal_Click(object sender, RoutedEventArgs e)
         {
             //double answer;
-            opperand2 = double.Parse(screen.Text);
+            try
+            {
+                opperand2 = double.Parse(screen.Text);
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show("Something went wrong " + ex.Message);
+            }
             if (opperator.Equals("+"))
             {
-                answer = opperand1 + opperand2;
+                try
+                {
+                    answer = opperand1 + opperand2;
+                    screen.Text = answer.ToString();
+                }
+                catch (System.Exception ex)
+                {
+                    MessageBox.Show("Something went wrong " + ex.Message);
+                }
             }
             else if (opperator.Equals("-"))
             {
-                answer = opperand1 - opperand2;
+                try
+                {
+                    answer = opperand1 - opperand2;
+                    screen.Text = answer.ToString();
+                }
+                catch (System.Exception ex)
+                {
+                    MessageBox.Show("Something went wrong " + ex.Message);
+                }
             }
             else if (opperator.Equals("×"))
             {
-                answer = opperand1 * opperand2;
-            }
-            else if (opperator.Equals("/"))
-            {
-                if (opperand2 == 0)
+                try
                 {
-                    screen.Text = "Error";
-                    MessageBox.Show("Error: Divided by 0");
-                    MessageBox.Show("For you causing an inconvenience to the program, you will be forced to wait 5 seconds before continuing.");
-                    System.Threading.Thread.Sleep(5000);
-                    clear_Click(sender, e);
+                    answer = opperand1 * opperand2;
+                    screen.Text = answer.ToString();
+
                 }
-                else
+                catch (System.Exception ex)
                 {
-                    answer = opperand1 / opperand2;
+                    MessageBox.Show("Something went wrong " + ex.Message);
+                }
+            }
+            else if (opperator.Equals("÷"))
+            {
+                try
+                {
+                    if (opperand2 == 0)
+                    {
+                        MessageBox.Show("Error: Divided by 0");
+                        MessageBox.Show("For causing an inconvenience to the program, you will be forced to wait 5 seconds before continuing.\n you will not be able to close the program.");
+                        System.Threading.Thread.Sleep(5000);
+                        clear_Click(sender, e);
+                    }
+                    else
+                    {
+                        answer = opperand1 / opperand2;
+                        screen.Text = answer.ToString();
+                    }
+                }
+                catch (System.Exception ex)
+                {
+                    MessageBox.Show("Something went wrong " + ex.Message);
                 }
             }
             else if (opperator.Equals("xⁿ"))
             {
-                answer = Math.Pow(opperand1, opperand2);
+                try
+                {
+                    answer = Math.Pow(opperand1, opperand2);
+                    screen.Text = answer.ToString();
+                }
+                catch (System.Exception ex)
+                {
+                    MessageBox.Show("Something went wrong " + ex.Message);
+                }
             }
             else
             {
                 MessageBox.Show("Why press enter when no data was entered.\nMath requires numbers");
                 clear_Click(sender, e);
             }
-            screen.Text = answer.ToString();
         }
 
         private void sqrt_root_Click(object sender, RoutedEventArgs e)
@@ -141,13 +187,11 @@ namespace Calculator9_10
         {
             if (!screen.Text.Contains("-"))
             {
-                text = "-" + text;
-                screen.Text = text;
+                screen.Text = "-" + screen.Text;
             }
             else
             {
-                text = text.TrimStart('-');
-                screen.Text = text;
+                screen.Text = screen.Text.TrimStart('-');
             }
         }
     }
