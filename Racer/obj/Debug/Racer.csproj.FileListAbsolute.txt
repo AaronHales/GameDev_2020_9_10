@@ -8,3 +8,13 @@ C:\Users\aaron\Desktop\GameDev_2020_9_10\Racer\obj\Debug\Racer.csproj.GenerateRe
 C:\Users\aaron\Desktop\GameDev_2020_9_10\Racer\obj\Debug\Racer.csproj.CoreCompileInputs.cache
 C:\Users\aaron\Desktop\GameDev_2020_9_10\Racer\obj\Debug\Racer.exe
 C:\Users\aaron\Desktop\GameDev_2020_9_10\Racer\obj\Debug\Racer.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Racer\bin\Debug\Racer.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Racer\bin\Debug\Racer.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Racer\bin\Debug\Racer.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Racer\obj\Debug\Racer.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Racer\obj\Debug\Racer.road.resources
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Racer\obj\Debug\Racer.Properties.Resources.resources
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Racer\obj\Debug\Racer.csproj.GenerateResource.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Racer\obj\Debug\Racer.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Racer\obj\Debug\Racer.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Racer\obj\Debug\Racer.pdb

@@ -43,6 +43,14 @@
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.gameloop = new System.Windows.Forms.Timer(this.components);
             this.playerCar = new System.Windows.Forms.PictureBox();
+            this.enemy1 = new System.Windows.Forms.PictureBox();
+            this.coin1 = new System.Windows.Forms.PictureBox();
+            this.score_lbl = new System.Windows.Forms.Label();
+            this.gameover_lbl = new System.Windows.Forms.Label();
+            this.enemy3 = new System.Windows.Forms.PictureBox();
+            this.enemy2 = new System.Windows.Forms.PictureBox();
+            this.coin2 = new System.Windows.Forms.PictureBox();
+            this.coin3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -55,6 +63,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerCar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemy1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemy3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemy2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin3)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -168,10 +182,100 @@
             this.playerCar.Image = ((System.Drawing.Image)(resources.GetObject("playerCar.Image")));
             this.playerCar.Location = new System.Drawing.Point(45, 524);
             this.playerCar.Name = "playerCar";
-            this.playerCar.Size = new System.Drawing.Size(101, 114);
+            this.playerCar.Size = new System.Drawing.Size(50, 90);
             this.playerCar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.playerCar.TabIndex = 1;
             this.playerCar.TabStop = false;
+            // 
+            // enemy1
+            // 
+            this.enemy1.BackColor = System.Drawing.Color.Transparent;
+            this.enemy1.Image = ((System.Drawing.Image)(resources.GetObject("enemy1.Image")));
+            this.enemy1.Location = new System.Drawing.Point(265, 257);
+            this.enemy1.Name = "enemy1";
+            this.enemy1.Size = new System.Drawing.Size(50, 90);
+            this.enemy1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.enemy1.TabIndex = 2;
+            this.enemy1.TabStop = false;
+            // 
+            // coin1
+            // 
+            this.coin1.BackColor = System.Drawing.Color.Transparent;
+            this.coin1.Image = ((System.Drawing.Image)(resources.GetObject("coin1.Image")));
+            this.coin1.Location = new System.Drawing.Point(321, 323);
+            this.coin1.Name = "coin1";
+            this.coin1.Size = new System.Drawing.Size(30, 30);
+            this.coin1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.coin1.TabIndex = 3;
+            this.coin1.TabStop = false;
+            // 
+            // score_lbl
+            // 
+            this.score_lbl.AutoSize = true;
+            this.score_lbl.BackColor = System.Drawing.Color.Transparent;
+            this.score_lbl.Font = new System.Drawing.Font("Bahnschrift Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.score_lbl.ForeColor = System.Drawing.Color.Yellow;
+            this.score_lbl.Location = new System.Drawing.Point(36, 9);
+            this.score_lbl.Name = "score_lbl";
+            this.score_lbl.Size = new System.Drawing.Size(101, 39);
+            this.score_lbl.TabIndex = 4;
+            this.score_lbl.Text = "Score: 0";
+            // 
+            // gameover_lbl
+            // 
+            this.gameover_lbl.AutoSize = true;
+            this.gameover_lbl.BackColor = System.Drawing.Color.Transparent;
+            this.gameover_lbl.Font = new System.Drawing.Font("Impact", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gameover_lbl.ForeColor = System.Drawing.Color.Red;
+            this.gameover_lbl.Location = new System.Drawing.Point(33, 267);
+            this.gameover_lbl.Name = "gameover_lbl";
+            this.gameover_lbl.Size = new System.Drawing.Size(322, 80);
+            this.gameover_lbl.TabIndex = 5;
+            this.gameover_lbl.Text = "Game Over";
+            // 
+            // enemy3
+            // 
+            this.enemy3.BackColor = System.Drawing.Color.Transparent;
+            this.enemy3.Image = ((System.Drawing.Image)(resources.GetObject("enemy3.Image")));
+            this.enemy3.Location = new System.Drawing.Point(265, 672);
+            this.enemy3.Name = "enemy3";
+            this.enemy3.Size = new System.Drawing.Size(50, 90);
+            this.enemy3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.enemy3.TabIndex = 2;
+            this.enemy3.TabStop = false;
+            // 
+            // enemy2
+            // 
+            this.enemy2.BackColor = System.Drawing.Color.Transparent;
+            this.enemy2.Image = ((System.Drawing.Image)(resources.GetObject("enemy2.Image")));
+            this.enemy2.Location = new System.Drawing.Point(265, 429);
+            this.enemy2.Name = "enemy2";
+            this.enemy2.Size = new System.Drawing.Size(50, 90);
+            this.enemy2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.enemy2.TabIndex = 2;
+            this.enemy2.TabStop = false;
+            // 
+            // coin2
+            // 
+            this.coin2.BackColor = System.Drawing.Color.Transparent;
+            this.coin2.Image = ((System.Drawing.Image)(resources.GetObject("coin2.Image")));
+            this.coin2.Location = new System.Drawing.Point(321, 465);
+            this.coin2.Name = "coin2";
+            this.coin2.Size = new System.Drawing.Size(30, 30);
+            this.coin2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.coin2.TabIndex = 3;
+            this.coin2.TabStop = false;
+            // 
+            // coin3
+            // 
+            this.coin3.BackColor = System.Drawing.Color.Transparent;
+            this.coin3.Image = ((System.Drawing.Image)(resources.GetObject("coin3.Image")));
+            this.coin3.Location = new System.Drawing.Point(321, 731);
+            this.coin3.Name = "coin3";
+            this.coin3.Size = new System.Drawing.Size(30, 30);
+            this.coin3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.coin3.TabIndex = 3;
+            this.coin3.TabStop = false;
             // 
             // road
             // 
@@ -179,6 +283,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(384, 761);
+            this.Controls.Add(this.gameover_lbl);
+            this.Controls.Add(this.score_lbl);
+            this.Controls.Add(this.coin3);
+            this.Controls.Add(this.coin2);
+            this.Controls.Add(this.coin1);
+            this.Controls.Add(this.enemy2);
+            this.Controls.Add(this.enemy3);
+            this.Controls.Add(this.enemy1);
             this.Controls.Add(this.playerCar);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
@@ -206,7 +318,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerCar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemy1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemy3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemy2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -225,6 +344,14 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Timer gameloop;
         private System.Windows.Forms.PictureBox playerCar;
+        private System.Windows.Forms.PictureBox enemy1;
+        private System.Windows.Forms.PictureBox coin1;
+        private System.Windows.Forms.Label score_lbl;
+        private System.Windows.Forms.Label gameover_lbl;
+        private System.Windows.Forms.PictureBox enemy3;
+        private System.Windows.Forms.PictureBox enemy2;
+        private System.Windows.Forms.PictureBox coin2;
+        private System.Windows.Forms.PictureBox coin3;
     }
 }
 
