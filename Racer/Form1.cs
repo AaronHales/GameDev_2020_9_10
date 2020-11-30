@@ -117,6 +117,10 @@ namespace Racer
                 int x = random.Next(30, 305);
                 int y = random.Next(-150, -40);
                 coin1.Location = new Point(x, y);
+                if (num_shots.Value < num_shots.Maximum)
+                {
+                    num_shots.Value++;
+                }
             }
 
             if (coin2.Top > 800)
@@ -136,6 +140,10 @@ namespace Racer
                 int x = random.Next(30, 305);
                 int y = random.Next(-150, -40);
                 coin2.Location = new Point(x, y);
+                if (num_shots.Value < num_shots.Maximum)
+                {
+                    num_shots.Value++;
+                }
             }
 
             if (coin3.Top > 800)
@@ -155,6 +163,10 @@ namespace Racer
                 int x = random.Next(30, 305);
                 int y = random.Next(-150, -40);
                 coin3.Location = new Point(x, y);
+                if (num_shots.Value < num_shots.Maximum)
+                {
+                    num_shots.Value++;
+                }
             }
 
         }
@@ -259,6 +271,13 @@ namespace Racer
                 {
                     speed--;
                 }
+            }
+            if (e.KeyCode == Keys.Space)
+            {
+                laser1.Visible = true;
+                laser1.Size = new Size(50, 200);
+                laser1.Location = new Point(45, 344);
+                // need to add function to laser
             }
         }
     }

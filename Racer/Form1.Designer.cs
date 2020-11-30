@@ -51,6 +51,8 @@
             this.enemy2 = new System.Windows.Forms.PictureBox();
             this.coin2 = new System.Windows.Forms.PictureBox();
             this.coin3 = new System.Windows.Forms.PictureBox();
+            this.laser1 = new System.Windows.Forms.PictureBox();
+            this.num_shots = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -69,6 +71,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.enemy2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laser1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -180,7 +183,7 @@
             // 
             this.playerCar.BackColor = System.Drawing.Color.Transparent;
             this.playerCar.Image = ((System.Drawing.Image)(resources.GetObject("playerCar.Image")));
-            this.playerCar.Location = new System.Drawing.Point(45, 524);
+            this.playerCar.Location = new System.Drawing.Point(45, 525);
             this.playerCar.Name = "playerCar";
             this.playerCar.Size = new System.Drawing.Size(50, 90);
             this.playerCar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -202,7 +205,7 @@
             // 
             this.coin1.BackColor = System.Drawing.Color.Transparent;
             this.coin1.Image = ((System.Drawing.Image)(resources.GetObject("coin1.Image")));
-            this.coin1.Location = new System.Drawing.Point(321, 323);
+            this.coin1.Location = new System.Drawing.Point(321, 429);
             this.coin1.Name = "coin1";
             this.coin1.Size = new System.Drawing.Size(30, 30);
             this.coin1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -229,6 +232,7 @@
             this.gameover_lbl.ForeColor = System.Drawing.Color.Red;
             this.gameover_lbl.Location = new System.Drawing.Point(33, 267);
             this.gameover_lbl.Name = "gameover_lbl";
+            this.gameover_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.gameover_lbl.Size = new System.Drawing.Size(322, 80);
             this.gameover_lbl.TabIndex = 5;
             this.gameover_lbl.Text = "Game Over";
@@ -259,7 +263,7 @@
             // 
             this.coin2.BackColor = System.Drawing.Color.Transparent;
             this.coin2.Image = ((System.Drawing.Image)(resources.GetObject("coin2.Image")));
-            this.coin2.Location = new System.Drawing.Point(321, 465);
+            this.coin2.Location = new System.Drawing.Point(321, 584);
             this.coin2.Name = "coin2";
             this.coin2.Size = new System.Drawing.Size(30, 30);
             this.coin2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -277,12 +281,34 @@
             this.coin3.TabIndex = 3;
             this.coin3.TabStop = false;
             // 
+            // laser1
+            // 
+            this.laser1.Image = ((System.Drawing.Image)(resources.GetObject("laser1.Image")));
+            this.laser1.Location = new System.Drawing.Point(51, 444);
+            this.laser1.Name = "laser1";
+            this.laser1.Size = new System.Drawing.Size(35, 85);
+            this.laser1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.laser1.TabIndex = 6;
+            this.laser1.TabStop = false;
+            this.laser1.Visible = false;
+            // 
+            // num_shots
+            // 
+            this.num_shots.Location = new System.Drawing.Point(256, 9);
+            this.num_shots.Maximum = 5;
+            this.num_shots.Name = "num_shots";
+            this.num_shots.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.num_shots.RightToLeftLayout = true;
+            this.num_shots.Size = new System.Drawing.Size(95, 20);
+            this.num_shots.TabIndex = 7;
+            // 
             // road
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(384, 761);
+            this.Controls.Add(this.num_shots);
             this.Controls.Add(this.gameover_lbl);
             this.Controls.Add(this.score_lbl);
             this.Controls.Add(this.coin3);
@@ -303,6 +329,7 @@
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.laser1);
             this.Name = "road";
             this.Text = "Racer";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.road_KeyDown_1);
@@ -324,6 +351,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.enemy2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laser1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -352,6 +380,8 @@
         private System.Windows.Forms.PictureBox enemy2;
         private System.Windows.Forms.PictureBox coin2;
         private System.Windows.Forms.PictureBox coin3;
+        private System.Windows.Forms.PictureBox laser1;
+        private System.Windows.Forms.ProgressBar num_shots;
     }
 }
 
