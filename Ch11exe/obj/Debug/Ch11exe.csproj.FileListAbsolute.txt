@@ -1,0 +1,7 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Ch11exe\bin\Debug\Ch11exe.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Ch11exe\bin\Debug\Ch11exe.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Ch11exe\bin\Debug\Ch11exe.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Ch11exe\obj\Debug\Ch11exe.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Ch11exe\obj\Debug\Ch11exe.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Ch11exe\obj\Debug\Ch11exe.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Ch11exe\obj\Debug\Ch11exe.pdb

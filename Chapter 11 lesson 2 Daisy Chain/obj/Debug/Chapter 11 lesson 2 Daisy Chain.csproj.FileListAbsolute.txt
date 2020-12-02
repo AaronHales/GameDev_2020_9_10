@@ -1,0 +1,7 @@
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 11 lesson 2 Daisy Chain\obj\Debug\Chapter 11 lesson 2 Daisy Chain.csprojAssemblyReference.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 11 lesson 2 Daisy Chain\obj\Debug\Chapter 11 lesson 2 Daisy Chain.csproj.CoreCompileInputs.cache
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 11 lesson 2 Daisy Chain\bin\Debug\Chapter 11 lesson 2 Daisy Chain.exe.config
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 11 lesson 2 Daisy Chain\bin\Debug\Chapter 11 lesson 2 Daisy Chain.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 11 lesson 2 Daisy Chain\bin\Debug\Chapter 11 lesson 2 Daisy Chain.pdb
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 11 lesson 2 Daisy Chain\obj\Debug\Chapter 11 lesson 2 Daisy Chain.exe
+C:\Users\aaron.hales\Desktop\Aaron's Projects\Chapter 11 lesson 2 Daisy Chain\obj\Debug\Chapter 11 lesson 2 Daisy Chain.pdb

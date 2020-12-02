@@ -53,6 +53,11 @@
             this.coin3 = new System.Windows.Forms.PictureBox();
             this.laser1 = new System.Windows.Forms.PictureBox();
             this.num_shots = new System.Windows.Forms.ProgressBar();
+            this.laser2 = new System.Windows.Forms.PictureBox();
+            this.laser3 = new System.Windows.Forms.PictureBox();
+            this.laser4 = new System.Windows.Forms.PictureBox();
+            this.laser5 = new System.Windows.Forms.PictureBox();
+            this.speed_lbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -72,6 +77,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.coin2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.laser1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laser2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laser3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laser4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laser5)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -284,7 +293,7 @@
             // laser1
             // 
             this.laser1.Image = ((System.Drawing.Image)(resources.GetObject("laser1.Image")));
-            this.laser1.Location = new System.Drawing.Point(51, 444);
+            this.laser1.Location = new System.Drawing.Point(-51, 444);
             this.laser1.Name = "laser1";
             this.laser1.Size = new System.Drawing.Size(35, 85);
             this.laser1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -298,9 +307,63 @@
             this.num_shots.Maximum = 5;
             this.num_shots.Name = "num_shots";
             this.num_shots.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.num_shots.RightToLeftLayout = true;
             this.num_shots.Size = new System.Drawing.Size(95, 20);
             this.num_shots.TabIndex = 7;
+            // 
+            // laser2
+            // 
+            this.laser2.Image = ((System.Drawing.Image)(resources.GetObject("laser2.Image")));
+            this.laser2.Location = new System.Drawing.Point(-51, 444);
+            this.laser2.Name = "laser2";
+            this.laser2.Size = new System.Drawing.Size(35, 85);
+            this.laser2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.laser2.TabIndex = 8;
+            this.laser2.TabStop = false;
+            this.laser2.Visible = false;
+            // 
+            // laser3
+            // 
+            this.laser3.Image = ((System.Drawing.Image)(resources.GetObject("laser3.Image")));
+            this.laser3.Location = new System.Drawing.Point(-51, 444);
+            this.laser3.Name = "laser3";
+            this.laser3.Size = new System.Drawing.Size(35, 85);
+            this.laser3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.laser3.TabIndex = 9;
+            this.laser3.TabStop = false;
+            this.laser3.Visible = false;
+            // 
+            // laser4
+            // 
+            this.laser4.Image = ((System.Drawing.Image)(resources.GetObject("laser4.Image")));
+            this.laser4.Location = new System.Drawing.Point(-51, 444);
+            this.laser4.Name = "laser4";
+            this.laser4.Size = new System.Drawing.Size(35, 85);
+            this.laser4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.laser4.TabIndex = 10;
+            this.laser4.TabStop = false;
+            this.laser4.Visible = false;
+            // 
+            // laser5
+            // 
+            this.laser5.Image = ((System.Drawing.Image)(resources.GetObject("laser5.Image")));
+            this.laser5.Location = new System.Drawing.Point(-51, 444);
+            this.laser5.Name = "laser5";
+            this.laser5.Size = new System.Drawing.Size(35, 85);
+            this.laser5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.laser5.TabIndex = 11;
+            this.laser5.TabStop = false;
+            this.laser5.Visible = false;
+            // 
+            // speed_lbl
+            // 
+            this.speed_lbl.AutoSize = true;
+            this.speed_lbl.Font = new System.Drawing.Font("Bahnschrift Condensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.speed_lbl.ForeColor = System.Drawing.Color.Navy;
+            this.speed_lbl.Location = new System.Drawing.Point(33, 713);
+            this.speed_lbl.Name = "speed_lbl";
+            this.speed_lbl.Size = new System.Drawing.Size(97, 35);
+            this.speed_lbl.TabIndex = 12;
+            this.speed_lbl.Text = "Speed: 0";
             // 
             // road
             // 
@@ -308,6 +371,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(384, 761);
+            this.Controls.Add(this.speed_lbl);
+            this.Controls.Add(this.laser5);
+            this.Controls.Add(this.laser4);
+            this.Controls.Add(this.laser3);
+            this.Controls.Add(this.laser2);
             this.Controls.Add(this.num_shots);
             this.Controls.Add(this.gameover_lbl);
             this.Controls.Add(this.score_lbl);
@@ -352,6 +420,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.coin2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.laser1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laser2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laser3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laser4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laser5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -382,6 +454,11 @@
         private System.Windows.Forms.PictureBox coin3;
         private System.Windows.Forms.PictureBox laser1;
         private System.Windows.Forms.ProgressBar num_shots;
+        private System.Windows.Forms.PictureBox laser2;
+        private System.Windows.Forms.PictureBox laser3;
+        private System.Windows.Forms.PictureBox laser4;
+        private System.Windows.Forms.PictureBox laser5;
+        private System.Windows.Forms.Label speed_lbl;
     }
 }
 
