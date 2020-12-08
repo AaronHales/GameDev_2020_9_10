@@ -1,0 +1,10 @@
+C:\Users\aaron\Desktop\GameDev_2020_9_10\to_do_list\bin\Debug\to_do_list.exe.config
+C:\Users\aaron\Desktop\GameDev_2020_9_10\to_do_list\bin\Debug\to_do_list.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\to_do_list\bin\Debug\to_do_list.pdb
+C:\Users\aaron\Desktop\GameDev_2020_9_10\to_do_list\obj\Debug\to_do_list.csprojAssemblyReference.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\to_do_list\obj\Debug\to_do_list.to_do_list.resources
+C:\Users\aaron\Desktop\GameDev_2020_9_10\to_do_list\obj\Debug\to_do_list.Properties.Resources.resources
+C:\Users\aaron\Desktop\GameDev_2020_9_10\to_do_list\obj\Debug\to_do_list.csproj.GenerateResource.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\to_do_list\obj\Debug\to_do_list.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\to_do_list\obj\Debug\to_do_list.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\to_do_list\obj\Debug\to_do_list.pdb
