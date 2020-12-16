@@ -1,0 +1,7 @@
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Cards\bin\Debug\Cards.exe.config
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Cards\bin\Debug\Cards.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Cards\bin\Debug\Cards.pdb
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Cards\obj\Debug\Cards.csprojAssemblyReference.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Cards\obj\Debug\Cards.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Cards\obj\Debug\Cards.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Cards\obj\Debug\Cards.pdb
