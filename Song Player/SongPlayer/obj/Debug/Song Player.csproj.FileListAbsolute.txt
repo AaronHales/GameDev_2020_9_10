@@ -1,0 +1,9 @@
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Song Player\SongPlayer\bin\Debug\SongPlayer.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Song Player\SongPlayer\bin\Debug\SongPlayer.pdb
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Song Player\SongPlayer\obj\Debug\Song Player.csprojAssemblyReference.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Song Player\SongPlayer\obj\Debug\SongPlayer.SongPlayerForm.resources
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Song Player\SongPlayer\obj\Debug\Song_Player.Properties.Resources.resources
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Song Player\SongPlayer\obj\Debug\Song Player.csproj.GenerateResource.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Song Player\SongPlayer\obj\Debug\Song Player.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Song Player\SongPlayer\obj\Debug\SongPlayer.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\Song Player\SongPlayer\obj\Debug\SongPlayer.pdb

@@ -1,0 +1,7 @@
+C:\Users\aaron\Desktop\GameDev_2020_9_10\CashRegister\obj\Debug\CashRegister.csprojAssemblyReference.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\CashRegister\obj\Debug\CashRegister.csproj.CoreCompileInputs.cache
+C:\Users\aaron\Desktop\GameDev_2020_9_10\CashRegister\bin\Debug\CashRegister.exe.config
+C:\Users\aaron\Desktop\GameDev_2020_9_10\CashRegister\bin\Debug\CashRegister.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\CashRegister\bin\Debug\CashRegister.pdb
+C:\Users\aaron\Desktop\GameDev_2020_9_10\CashRegister\obj\Debug\CashRegister.exe
+C:\Users\aaron\Desktop\GameDev_2020_9_10\CashRegister\obj\Debug\CashRegister.pdb
