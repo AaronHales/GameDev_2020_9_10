@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 437667780}
   - component: {fileID: 437667779}
+  - component: {fileID: 437667781}
   m_Layer: 0
   m_Name: White
   m_TagString: Untagged
@@ -202,6 +203,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &437667781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437667778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ecbf9f293687e141aa003bbf5ad9750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &481061005
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 481061007}
   - component: {fileID: 481061006}
+  - component: {fileID: 481061008}
   m_Layer: 0
   m_Name: CawCaw
   m_TagString: Untagged
@@ -283,6 +297,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -0.9990001, z: -46.799004}
+--- !u!114 &481061008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481061005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ecbf9f293687e141aa003bbf5ad9750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 858264533}
   - component: {fileID: 858264532}
+  - component: {fileID: 858264534}
   m_Layer: 0
   m_Name: CawCaws
   m_TagString: Untagged
@@ -447,6 +474,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 180}
+--- !u!114 &858264534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858264531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ecbf9f293687e141aa003bbf5ad9750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1549415489
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1549415491}
   - component: {fileID: 1549415490}
+  - component: {fileID: 1549415492}
   m_Layer: 0
   m_Name: FlapFlap
   m_TagString: Untagged
@@ -528,6 +568,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -136.134}
+--- !u!114 &1549415492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549415489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ecbf9f293687e141aa003bbf5ad9750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2006328524
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,6 +590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2006328526}
   - component: {fileID: 2006328525}
+  - component: {fileID: 2006328527}
   m_Layer: 0
   m_Name: Flappy
   m_TagString: Untagged
@@ -609,3 +662,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &2006328527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006328524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ecbf9f293687e141aa003bbf5ad9750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
